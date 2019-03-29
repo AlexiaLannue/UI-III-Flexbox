@@ -64,3 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* {
+	box-sizing: border-box;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 14px;
+	line-height: 1.5;
+}
+
+.mainNavBox{
+	box-sizing: border-box;
+	display: block;
+	width: 1200px;
+	margin-bottom: 25px;
+}
+
+nav a{
+	color: gray;
+	text-decoration: none;
+	padding: 30px;
+	margin: 10px;
+}
+
+nav, .logo {
+	text-align: center;
+	display: inline-block;
+	padding-top: 30px;
+	margin-top: 10px;
+}
+
+.services-header-img{
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	margin-left: 140px;
+	width: 70%;
+}
+
+#Services{
+	font-size: 24px;
+}
+
+.services-class{
+	margin-left: 140px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: justify;
+	width: 70%;
+	border-bottom: 1px solid black;
+}
+
+button{
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 35px;
+}
+
+.middle-boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	width: 30%;
+	text-align: justify;
+	padding: 20px;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+/*
+.last-divs{
+display: inline-flex;
+flex-wrap: wrap;
+align-items: baseline;  new 
+align-content: center;
+justify-content: space-between;
+width: 40%;
+text-align: justify;
+padding: 20px;
+border: 1px solid red;
+}
+*/
+#footer{
+text-align: center;
+}
